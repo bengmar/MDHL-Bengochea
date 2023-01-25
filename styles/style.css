@@ -24,11 +24,10 @@ nav {
   font-family: cursive, Cochin, Georgia, Times, "Times New Roman", serif;
   color: white;
   margin: 1px;
-  border: 2px solid black;
-  padding: 8px 4px 8px 4px;
+  border: 1px solid black;
+  padding: 7px 8px 7px 8px;
   text-decoration: none;
-  box-shadow: rgba(50, 50, 93, 0.7) 0px 13px 27px -3px,
-    rgba(0, 0, 0, 0.4) 2px 8px 16px -9px;
+  box-shadow: 4px 4px 1px -1px #606455;
 }
 
 .button:link {
