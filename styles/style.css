@@ -7,7 +7,7 @@
 
 h1 {
   text-align: left;
-  font-size: 70px;
+  font-size: 65px;
   background-color: white;
   color: black;
   padding: 1px;
@@ -15,40 +15,43 @@ h1 {
 
 nav {
   position: absolute;
-  left: 80%;
-  top: 85px;
+  left: 78%;
+  top: 72px;
 }
 
 .button {
   display: inline-block;
+  font-size: 20px;
   text-align: center;
   font-family: cursive, Cochin, Georgia, Times, "Times New Roman", serif;
   color: white;
-  margin: 1px;
+  margin: 2px;
   border: 1px solid black;
-  padding: 7px 8px 7px 8px;
+  padding: 4px 14px;
   text-decoration: none;
   box-shadow: 4px 4px 1px -1px #606455;
 }
 
 .button:link {
-  background-color: blue;
+  background-color: rgb(068, 114, 196);
 }
 
+/* Three extra optional green config */
+
 .button:focus {
-  background-color: green;
+  background-color: rgb(114, 155, 54);
 }
 
 .button:hover {
-  background-color: green;
+  background-color: rgb(6, 126, 6);
 }
 
 .button:active {
-  background-color: greenyellow;
+  background-color: rgb(114, 155, 54);
 }
 
 .active {
-  background-color: green;
+  background-color: rgb(112, 173, 71);
 }
 
 .cover-picture {
@@ -58,7 +61,7 @@ nav {
 }
 
 .subtitle {
-  position:relative;
+  position: relative;
   top: -5px;
   background-color: white;
   color: black;
@@ -80,8 +83,8 @@ nav {
   position: absolute;
   text-align: left;
   top: 460px;
-  margin: 80px;
   left: 230px;
+  margin: 80px;
 }
 
 .indent_text {
@@ -89,10 +92,10 @@ nav {
 }
 
 .contact {
-   position: absolute;
-   font-size: 18px;
-   top: 480px;
-   left: 230px;
+  position: absolute;
+  font-size: 18px;
+  top: 480px;
+  left: 230px;
 }
 
 article {
