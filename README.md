@@ -1,3 +1,3 @@
 # MDHL-Bengochea
--Design updates
--Added favicon.ico
+-Updated HTML and CSS code.
+-Minor design updates.
