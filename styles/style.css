@@ -61,7 +61,7 @@ main {
   border: 1px solid black;
 }
 
-article {
+.contact, article {
   margin-top: 20px;
   margin-bottom: 20px;
 }
