@@ -10,12 +10,16 @@
   </head>
   <body>
     <header>
-      <h1>Mighty Ducks Hockey League</h1>
-      <nav>
-        <a class="button" href="./index.html">Home</a>
-        <a class="button" href="./about.html">About</a>
-        <a class="button active" href="#">Contact</a>
-      </nav>
+      <div class="banner">
+        <h1>Mighty Ducks Hockey League</h1>
+        <nav>
+          <a class="button" href="./index.html">Home</a>
+          <a class="button" href="./about.html">About</a>
+          <a class="button active" href="#">Contact</a>
+          <a class="button" href="./rules.html">Rules & Policies</a>
+          <a class="button" href="./game_info.html">Game Information</a>
+        </nav>
+      </div>
       <img
         class="cover-picture"
         src="./assets/design1_image2.jpg"
@@ -23,20 +27,24 @@
       >
     </header>
     <main>
-      <section>
-        <h2 class="subtitle">Contact</h2>
+      <h2 class="subtitle">Contact</h2>
+      <div class="container-section">
+        <img class="logo" src="./assets/Logo_Mighty_ducks-01.png" alt="logo" >
         <div class="text-main">
           <p class="contact">
             Please email us at
-            <a href="mailto:mdhl@chihockey.org">mdhl@chihockey.org</a>
+            <a class="email" href="mailto:mdhl@chihockey.org"
+              >mdhl@chihockey.org</a
+            >
           </p>
           <p class="contact">We reply to your email as soon as we can.</p>
         </div>
-      </section>
-      <figure>
-        <img class="logo" src="./assets/Logo_Mighty_ducks-01.png" alt="logo" >
-        <img class="hockey" src="./assets/hockey_3.jpg" alt="hockey image 3" >
-      </figure>
+        <img
+          class="last-image"
+          src="./assets/hockey_3.jpg"
+          alt="last image 3"
+        >
+      </div>
     </main>
     <footer><p>© Designed by Marcelo Bengochea - 2023</p></footer>
   </body>

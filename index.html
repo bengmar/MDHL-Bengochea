@@ -10,12 +10,16 @@
   </head>
   <body>
     <header>
-      <h1>Mighty Ducks Hockey League</h1>
-      <nav>
-        <a class="button active" href="#">Home</a>
-        <a class="button" href="./about.html">About</a>
-        <a class="button" href="./contact.html">Contact</a>
-      </nav>
+      <div class="banner">
+        <h1>Mighty Ducks Hockey League</h1>
+        <nav>
+          <a class="button active" href="#">Home</a>
+          <a class="button" href="./about.html">About</a>
+          <a class="button" href="./contact.html">Contact</a>
+          <a class="button" href="./rules.html">Rules & Policies</a>
+          <a class="button" href="./game_info.html">Game Information</a>
+        </nav>
+      </div>
       <img
         class="cover-picture"
         src="./assets/design1_image2.jpg"
@@ -23,9 +27,10 @@
       >
     </header>
     <main>
-      <section>
-        <h2 class="subtitle">Upcoming Events</h2>
-        <div class="text-main">
+      <h2 class="subtitle">Upcoming Events</h2>
+      <div class="container-section">
+        <img class="logo" src="./assets/Logo_Mighty_ducks-01.png" alt="logo" >
+        <div class="text-main index-text">
           <article>
             <h3>August 4</h3>
             <p class="indent_text">MDSL Fundraiser</p>
@@ -41,11 +46,12 @@
             </p>
           </article>
         </div>
-      </section>
-      <figure>
-        <img class="logo" src="./assets/Logo_Mighty_ducks-01.png" alt="logo" >
-        <img class="hockey" src="./assets/hockey_1.jpg" alt="hockey image 1" >
-      </figure>
+        <img
+          class="last-image"
+          src="./assets/hockey_1.jpg"
+          alt="last image 1 "
+        >
+      </div>
     </main>
     <footer><p>© Designed by Marcelo Bengochea - 2023</p></footer>
   </body>
