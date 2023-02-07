@@ -52,7 +52,7 @@ body {
 
 .cover-picture {
   object-fit: cover;
-  width: 99.4%;
+  width: 99.25%;
   height: 450px;
   margin: 5px;
   border: solid 1px rgb(231, 235, 241);
@@ -87,7 +87,6 @@ section,
   margin: 5px;
   min-height: 250px;
   max-height: 500px;
-  max-width: 315px;
 }
 
 .text-main {
@@ -112,7 +111,7 @@ section,
 
 .last-image {
   object-fit: cover;
-  width: 19%;
+  width: auto;
   min-height: 250px;
   max-height: 500px;
   margin: 5px;
@@ -239,5 +238,86 @@ footer {
   color: rgba(240, 236, 7, 0.863);
   background-color: darkslategray;
   border-radius: 5px;
-  border: 1px solid darkslategray;
+  border: 1px solid white;
+}
+
+.maps-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: darkslategray;
+  flex-wrap: wrap;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+iframe {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.maps-title {
+  display: block;
+}
+
+.registration {
+  display: flex;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+fieldset {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+form {
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: darkslategrey;
+  color: white;
+  padding: 10px;
+}
+
+input {
+  color: darkslategray;
+}
+
+legend {
+  color: rgba(240, 236, 7, 0.863);
+  margin: 5px;
+}
+
+input,
+select {
+  border-radius: 10px;
+  padding: 3px;
+  background-color: rgb(204, 203, 171);
+}
+
+label {
+  padding: 8px;
+}
+
+.personal-data {
+  padding-right: 0px;
+}
+
+.ppal-button {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: darkslategray;
+  color: white;
+  border-color: white;
+}
+
+.ppal-button:hover {
+  background-color: rgba(240, 236, 7, 0.863);
+  color: darkslategray;
+  border-color: black;
 }
