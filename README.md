@@ -1,1 +1,3 @@
--Initial task3 build
+-Initial task4 build
+-added registration.html 
+-added maps to game_info.html page
