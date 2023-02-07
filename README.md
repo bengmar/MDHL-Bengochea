@@ -1,1 +1,2 @@
--Initial task3 build
+-Added Media Queries;
+-Fixes;

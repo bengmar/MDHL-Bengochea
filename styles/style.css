@@ -80,26 +80,6 @@ section,
   display: flex;
 }
 
-.logo {
-  background-color: darkslategray;
-  border: solid 1px rgb(231, 235, 241);
-  border-radius: 10px;
-  margin: 5px;
-  min-height: 250px;
-  max-height: 500px;
-}
-
-.text-main {
-  margin: 5px;
-  background-color: darkslategray;
-  color: white;
-  width: 1200px;
-  font-size: 14px;
-  padding: 10px 20px 20px 10px;
-  border: 1px solid rgb(245, 240, 240);
-  border-radius: 10px;
-}
-
 .index-text {
   padding: 40px;
   font-size: 20px;
@@ -109,11 +89,27 @@ section,
   text-indent: 30px;
 }
 
+.logo {
+  background-color: darkslategray;
+  border: solid 1px rgb(231, 235, 241);
+  border-radius: 10px;
+  margin: 5px;
+  width: 18rem;
+}
+
+.text-main {
+  margin: 5px;
+  background-color: darkslategray;
+  color: white;
+  width: 100%;
+  padding: 10px 20px 20px 10px;
+  border: 1px solid rgb(245, 240, 240);
+  border-radius: 10px;
+}
+
 .last-image {
   object-fit: cover;
-  width: auto;
-  min-height: 250px;
-  max-height: 500px;
+  width: 18rem;
   margin: 5px;
   border: solid 1px rgb(231, 235, 241);
   border-radius: 10px;
@@ -244,8 +240,9 @@ footer {
 .maps-container {
   display: flex;
   justify-content: center;
-  padding: 10px;
-  background-color: darkslategray;
+  padding: 5px;
+  background-image:url(../assets/design1_image2.jpg);
+  opacity: 0.88;
   flex-wrap: wrap;
   margin: 5px;
   border-radius: 10px;
@@ -255,6 +252,8 @@ footer {
 iframe {
   margin: 10px;
   border-radius: 10px;
+  padding: 15px;
+  background-color: darkslategray;
 }
 
 .maps-title {
@@ -320,4 +319,37 @@ label {
   background-color: rgba(240, 236, 7, 0.863);
   color: darkslategray;
   border-color: black;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 800px) {
+  .game-container,
+  .container-section,
+  nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .last-image,
+  .logo,
+  iframe {
+    width: 100%;
+  }
+  .text-main {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 950px){
+  .game-container>.last-image{
+    display:none;
+  }
+  
+}
+
+/* Logo deactivated for resolutions <1024px */
+@media screen and (max-width: 1024px) {
+  .logo {
+    display: none;
+  }
 }
